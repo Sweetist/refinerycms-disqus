@@ -12,5 +12,5 @@ Gem::Specification.new do |s|
   s.files             = Dir['lib/**/*', 'app/**/*', '*.md']
   s.require_paths     = %w(lib)
 
-  s.add_dependency    'refinerycms-core', '~> 2.718.0.dev'
+  s.add_dependency    'refinerycms-core', '>= 3.0.0'
 end
